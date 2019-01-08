@@ -66,10 +66,17 @@ li:hover {
   background-color: #634c4090;
 }
 
+.pull-left {
+  float: left;
+}
+#aboutPic1 {
+  margin-right: 15px;
+}
+
 .myAbout {
   background-color: #634c40b7;
   color: #fff;
-  margin-top: 10%;
+  margin-top: 3%;
   padding: 2%;
   border-radius: 10px;
   font-family: "Rubik", sans-serif;

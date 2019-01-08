@@ -66,10 +66,21 @@ li:hover {
   background-color: #634c4090;
 }
 
+.myAbout {
+  background-color: #634c40b7;
+  color: #fff;
+  margin-top: 10%;
+  padding: 2%;
+  border-radius: 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 110%;
+}
+
 footer {
   width: 100%;
   background-color: #634c4090;
   padding: 1%;
+  padding-bottom: 0 !important;
   color: #fff;
   float: clear;
   bottom: 0;
@@ -77,13 +88,13 @@ footer {
   font-family: navFonts;
 }
 .fab {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   color: #fff;
 }
 .fas {
   padding: 20px;
-  font-size: 100px;
+  font-size: 50px;
   color: #fff;
 }
 @media screen and (max-width: 600px) {

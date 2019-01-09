@@ -10,6 +10,10 @@ body {
   font-family: navFonts;
   src: url(../css/fonts/casaSans.ttf);
 }
+@font-face {
+  font-family: cardFont;
+  src: url(../css/fonts/Quicksand_Light.otf);
+}
 
 .welcome {
   font-family: navFonts;
@@ -91,15 +95,25 @@ li:hover {
   background-color: #000;
   color: #fff;
   margin: 0 auto;
-  font-family: "Rubik", sans-serif !important ;
+  font-family: cardFont;
 }
 .card-text {
   width: 200px;
-  font-family: "Rubik", sans-serif !important ;
+  word-wrap: break-word;
 }
 
 #lastRow {
   margin-bottom: 20px;
+}
+.myMail {
+  text-decoration: none;
+  color: #fff;
+}
+.myMail:hover {
+  color: orange;
+}
+.myMail:focus {
+  color: #fff;
 }
 
 footer {
@@ -150,10 +164,7 @@ footer {
   .card-text {
     width: 200px;
   }
-  .portfolioImg {
-    /* width: 100px;
-    height: 100px; */
-  }
+
   h* {
     font-size: 80%;
   }
